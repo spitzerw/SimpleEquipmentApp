@@ -1,0 +1,17 @@
+.equipment {
+	display: grid;
+}
+
+.equipmentContainer {
+	display: grid;
+	grid-template-columns: 33% 33% 33%
+}
+
+.templatesContainer {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.template {
+	display: grid;
+}

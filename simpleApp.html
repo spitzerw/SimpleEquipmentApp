@@ -1,0 +1,41 @@
+<html>
+	<header>
+		A simple app to do a demo for equipment sets
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src='simpleApp.js'></script>
+		<script src='equipment.js'></script>
+		<link rel="stylesheet" href="simpleApp.css">
+	</header>
+	<body>
+		<p>Equipment Templating: Create and Load Equipment Sets</p>
+		<div>Equipment</div>
+		<div id='equipmentListContainer'>
+			<div id='helmetContainer' class='equipmentContainer'>
+				<label class='equipment'>Helmet: </label>
+				<span id='helmetItem' class='item equipment'>None</span>
+				<select id='helmetSelect' class='equipment select'></select>
+			</div>
+			<div id='chestContainer' class='equipmentContainer'>
+				<label class='equipment'>Chest: </label>
+				<span id='chestItem' class='item equipment'>None</span>				
+				<select id='chestSelect' class='equipment select'></select>
+			</div>
+
+			<div id='weaponContainer' class='equipmentContainer'>
+				<label class='equipment'>Weapon: </label>
+				<span id='weaponItem' class='item equipment'>None</span>				
+				<select id='weaponSelect' class='equipment select'></select>
+			</div>
+		</div>
+		<div id='templatesContainer'>
+			<div class='templatesContainer'>
+				<button id='saveButton' class='button template'>Save Current Equipment: </button>
+				<span id='currentEquipment' class='template'></span>
+			</div>
+			<div class='templatesContainer'>
+				<button id='loadButton' class='button template'>Load Equipment Set: </button>
+				<select id='selectTemplate' class='select template'></select>
+			</div>
+		</div>
+	</body>
+</html>
