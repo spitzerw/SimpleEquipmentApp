@@ -4,14 +4,19 @@
 
 .equipmentContainer {
 	display: grid;
-	grid-template-columns: 33% 33% 33%
+	grid-template-columns: 33% 33% 32.5%
 }
 
 .templatesContainer {
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 30% 69%;
 }
 
 .template {
 	display: grid;
+	margin:2px;
+}
+
+.mainContainer {
+	max-width:600px;
 }

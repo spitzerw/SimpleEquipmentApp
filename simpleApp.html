@@ -9,32 +9,34 @@
 	<body>
 		<p>Equipment Templating: Create and Load Equipment Sets</p>
 		<div>Equipment</div>
-		<div id='equipmentListContainer'>
-			<div id='helmetContainer' class='equipmentContainer'>
-				<label class='equipment'>Helmet: </label>
-				<span id='helmetItem' class='item equipment'>None</span>
-				<select id='helmetSelect' class='equipment select'></select>
-			</div>
-			<div id='chestContainer' class='equipmentContainer'>
-				<label class='equipment'>Chest: </label>
-				<span id='chestItem' class='item equipment'>None</span>				
-				<select id='chestSelect' class='equipment select'></select>
-			</div>
+		<div class="mainContainer">
+			<div id='equipmentListContainer'>
+				<div id='helmetContainer' class='equipmentContainer'>
+					<label class='equipment'>Helmet: </label>
+					<span id='helmetItem' class='item equipment'>None</span>
+					<select id='helmetSelect' class='equipment select'></select>
+				</div>
+				<div id='chestContainer' class='equipmentContainer'>
+					<label class='equipment'>Chest: </label>
+					<span id='chestItem' class='item equipment'>None</span>				
+					<select id='chestSelect' class='equipment select'></select>
+				</div>
 
-			<div id='weaponContainer' class='equipmentContainer'>
-				<label class='equipment'>Weapon: </label>
-				<span id='weaponItem' class='item equipment'>None</span>				
-				<select id='weaponSelect' class='equipment select'></select>
+				<div id='weaponContainer' class='equipmentContainer'>
+					<label class='equipment'>Weapon: </label>
+					<span id='weaponItem' class='item equipment'>None</span>				
+					<select id='weaponSelect' class='equipment select'></select>
+				</div>
 			</div>
-		</div>
-		<div id='templatesContainer'>
-			<div class='templatesContainer'>
-				<button id='saveButton' class='button template'>Save Current Equipment: </button>
-				<span id='currentEquipment' class='template'></span>
-			</div>
-			<div class='templatesContainer'>
-				<button id='loadButton' class='button template'>Load Equipment Set: </button>
-				<select id='selectTemplate' class='select template'></select>
+			<div id='templatesContainer'>
+				<div class='templatesContainer'>
+					<button id='saveButton' class='button template'>Save Current Equipment: </button>
+					<span id='currentEquipment' class='template'></span>
+				</div>
+				<div class='templatesContainer'>
+					<button id='loadButton' class='button template'>Load Equipment Set: </button>
+					<select id='selectTemplate' class='select template'></select>
+				</div>
 			</div>
 		</div>
 	</body>
